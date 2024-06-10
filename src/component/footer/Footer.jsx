@@ -20,22 +20,22 @@ export const Footer = () => {
 const SocialMediaLinks = () => {
   return (
     <div className="mt-8">
-      <h2 className="text-2xl font-bold text-center mb-4">Contact Me</h2>
+      <h2 className="text-2xl font-bold text-center mb-4">Follow Me</h2>
       <div className="divide-y divide-neutral-900 border border-neutral-900">
         <div className="grid grid-cols-2 divide-x divide-neutral-900">
-          <LinkBox Icon={IoMail} href="#" />
-          <LinkBox Icon={FaInstagram} href="#" />
+          <LinkBox Icon={IoMail} href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlFmHvrckCZCXRhRKdRHfNzMxFFsxBfWgnNNDrbTNSGVsqcqNbpHLKvjTVTRlBQCxhTqqq" />
+          <LinkBox Icon={FaInstagram} href="https://www.instagram.com/abdul_.raw/" />
         </div>
         <div className="grid grid-cols-4 divide-x divide-neutral-900">
-          <LinkBox Icon={FaGithub} href="#" />
-          <LinkBox Icon={FaXTwitter} href="#" />
-          <LinkBox Icon={FaReddit} href="#" />
-          <LinkBox Icon={SiFacebook} href="#" />
+          <LinkBox Icon={FaGithub} href="https://github.com/hannanpawar1103" />
+          <LinkBox Icon={FaXTwitter} href="https://x.com/abdul_1103" />
+          <LinkBox Icon={FaReddit} href="https://www.reddit.com/user/abdulhannan1103/" />
+          <LinkBox Icon={SiFacebook} href="https://www.facebook.com/abdulhannan.pawar/" />
         </div>
         <div className="grid grid-cols-3 divide-x divide-neutral-900">
-          <LinkBox Icon={FaDiscord} href="#" />
-          <LinkBox Icon={FaPinterest} href="#" />
-          <LinkBox Icon={SiLinkedin} href="#" />
+          <LinkBox Icon={FaDiscord} href="https://discord.com/channels/@me" />
+          <LinkBox Icon={FaPinterest} href="https://in.pinterest.com/hannanpawar1103/" />
+          <LinkBox Icon={SiLinkedin} href="https://www.linkedin.com/in/pawar-abdul-643132261/" />
         </div>
       </div>
     </div>
